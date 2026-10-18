@@ -1,6 +1,6 @@
 ## Project Details
-Project Name: Skip List Data Structure with Real-World Applications
-Course: Data Structures & Algorithms (DSA) / Object-Oriented Programming (OOP)
+Project Name: Skip List Data Structure with Real-World Applications.
+Course: Data Structures & Algorithms (DSA) / Object-Oriented Programming (OOP).
 What we built: A custom Skip List in C++ used for two demos: a gaming leaderboard and a financial stock market order book.
 
 
@@ -21,7 +21,7 @@ Level Display (displayLevels): Prints the visual ASCII chart showing which numbe
 
 
 
-## our Two Demos
+## Our Two Demos
 ## 1. Leaderboard Game Demo
 Uses scores as the Skip List keys.
 Uses a std::vector<string> for the values so multiple players with the same score are tied together instead of overwriting each other.
@@ -34,17 +34,17 @@ When a buyer enters the market, it finds the lowest seller using getMinimum() an
 
 
 ## 🏛 Architectural Overview
-Level 3 : HEAD ---------------------------------------------> [850] -------------> NULL
+Level 3 : HEAD ---------------------------------------------> [850] -------------> NULL.
            |                                                    |
-Level 2 : HEAD -------------------------> [720] ------------> [850] -------------> NULL
+Level 2 : HEAD -------------------------> [720] ------------> [850] -------------> NULL.
            |                                |                   |
-Level 1 : HEAD -----------> [100] ------> [720] ------------> [850] ------> [910] -> NULL
+Level 1 : HEAD -----------> [100] ------> [720] ------------> [850] ------> [910] -> NULL.
            |                  |             |                   |             |
-Level 0 : HEAD -> [50] -> [100] -> [250]-> [720] -> [800] -> [850] -> [890] -> [910] -> NULL
+Level 0 : HEAD -> [50] -> [100] -> [250]-> [720] -> [800] -> [850] -> [890] -> [910] -> NULL.
 
 
 
 ## Add Compilation Instructions
 g++ -std=c++11 -O2 skiplist_phase2_main.cpp basic_module.cpp leaderboard_module.cpp order_book_module.cpp -o skiplist_app
-./skiplist_app
+./skiplist_app.
 
